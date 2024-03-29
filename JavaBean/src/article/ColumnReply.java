@@ -4,58 +4,58 @@ import java.sql.Date;
 
 public class ColumnReply {
 
-    private Integer ColumnReplyNo;
-    private Integer ArtNo;
-    private Integer MemNo;
-    private String ComContent;
-    private Date ComTime;
-    private Integer ComStat;
+    private Integer columnReplyNo;
+    private Integer artNo;
+    private Integer memNo;
+    private String comContent;
+    private Date comTime;
+    private Integer comStat;
 
     public Integer getColumnReplyNo() {
-        return ColumnReplyNo;
+        return columnReplyNo;
     }
 
     public void setColumnReplyNo(Integer columnReplyNo) {
-        ColumnReplyNo = columnReplyNo;
+        this.columnReplyNo = columnReplyNo;
     }
 
     public Integer getArtNo() {
-        return ArtNo;
+        return artNo;
     }
 
     public void setArtNo(Integer artNo) {
-        ArtNo = artNo;
+        this.artNo = artNo;
     }
 
     public Integer getMemNo() {
-        return MemNo;
+        return memNo;
     }
 
     public void setMemNo(Integer memNo) {
-        MemNo = memNo;
+        this.memNo = memNo;
     }
 
     public String getComContent() {
-        return ComContent;
+        return comContent;
     }
 
     public void setComContent(String comContent) {
-        ComContent = comContent;
+        this.comContent = comContent;
     }
 
     public Date getComTime() {
-        return ComTime;
+        return comTime;
     }
 
     public void setComTime(Date comTime) {
-        ComTime = comTime;
+        this.comTime = comTime;
     }
 
     public Integer getComStat() {
-        return ComStat;
+        return comStat;
     }
 
     public void setComStat(Integer comStat) {
-        ComStat = comStat;
+        this.comStat = comStat;
     }
 }
