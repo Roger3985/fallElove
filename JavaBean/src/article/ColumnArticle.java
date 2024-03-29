@@ -4,67 +4,69 @@ import java.sql.Date;
 
 public class ColumnArticle {
 
-    private Integer ArtNo;
-    private Integer AdmNo;
-    private String ArtTitle;
-    private String ArtContent;
-    private Date ArtTime;
-    private Integer ArtCatNo;
-    private Integer ArtStat;
+    private Integer artNo;
+    private Integer admNo;
+    private String artTitle;
+    private String artContent;
+    private Date artTime;
+    private Integer artCatNo;
+    private Integer artStat;
 
     public Integer getArtNo() {
-        return ArtNo;
+        return artNo;
     }
 
     public void setArtNo(Integer artNo) {
-        ArtNo = artNo;
+        this.artNo = artNo;
     }
 
     public Integer getAdmNo() {
-        return AdmNo;
+        return admNo;
     }
 
     public void setAdmNo(Integer admNo) {
-        AdmNo = admNo;
+        this.admNo = admNo;
     }
 
     public String getArtTitle() {
-        return ArtTitle;
+        return artTitle;
     }
 
     public void setArtTitle(String artTitle) {
-        ArtTitle = artTitle;
+        this.artTitle = artTitle;
     }
 
     public String getArtContent() {
-        return ArtContent;
+        return artContent;
     }
 
     public void setArtContent(String artContent) {
-        ArtContent = artContent;
+        this.artContent = artContent;
     }
 
     public Date getArtTime() {
-        return ArtTime;
+        return artTime;
     }
 
     public void setArtTime(Date artTime) {
-        ArtTime = artTime;
+        this.artTime = artTime;
     }
 
     public Integer getArtCatNo() {
-        return ArtCatNo;
+        return artCatNo;
     }
 
     public void setArtCatNo(Integer artCatNo) {
-        ArtCatNo = artCatNo;
+        this.artCatNo = artCatNo;
     }
 
     public Integer getArtStat() {
-        return ArtStat;
+        return artStat;
     }
 
     public void setArtStat(Integer artStat) {
-        ArtStat = artStat;
+        this.artStat = artStat;
     }
 }
+
+

@@ -2,22 +2,22 @@ package article;
 
 public class ClickLike {
 
-    private Integer MemNo;
-    private Integer ArtNo;
+    private Integer memNo;
+    private Integer artNo;
 
     public Integer getMemNo() {
-        return MemNo;
+        return memNo;
     }
 
     public void setMemNo(Integer memNo) {
-        MemNo = memNo;
+        memNo = memNo;
     }
 
     public Integer getArtNo() {
-        return ArtNo;
+        return artNo;
     }
 
     public void setArtNo(Integer artNo) {
-        ArtNo = artNo;
+        artNo = artNo;
     }
 }
