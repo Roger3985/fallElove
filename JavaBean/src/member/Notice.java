@@ -4,49 +4,49 @@ import java.sql.Date;
 
 public class Notice {
 
-    private Integer NotNo;
-    private Integer MemNo;
-    private String NotContent;
-    private Date NotTime;
-    private Integer NotStat;
+    private Integer notNo;
+    private Integer memNo;
+    private String notContent;
+    private Date notTime;
+    private Integer notStat;
 
     public Integer getNotNo() {
-        return NotNo;
+        return notNo;
     }
 
     public void setNotNo(Integer notNo) {
-        NotNo = notNo;
+        this.notNo = notNo;
     }
 
     public Integer getMemNo() {
-        return MemNo;
+        return memNo;
     }
 
     public void setMemNo(Integer memNo) {
-        MemNo = memNo;
+        this.memNo = memNo;
     }
 
     public String getNotContent() {
-        return NotContent;
+        return notContent;
     }
 
     public void setNotContent(String notContent) {
-        NotContent = notContent;
+        this.notContent = notContent;
     }
 
     public Date getNotTime() {
-        return NotTime;
+        return notTime;
     }
 
     public void setNotTime(Date notTime) {
-        NotTime = notTime;
+        this.notTime = notTime;
     }
 
     public Integer getNotStat() {
-        return NotStat;
+        return notStat;
     }
 
     public void setNotStat(Integer notStat) {
-        NotStat = notStat;
+        this.notStat = notStat;
     }
 }
