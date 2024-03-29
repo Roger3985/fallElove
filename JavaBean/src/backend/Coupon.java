@@ -1,3 +1,5 @@
+package backend;
+
 import java.sql.Date;
 
 public class Coupon implements java.io.Serializable{
