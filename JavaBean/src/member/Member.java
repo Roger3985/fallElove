@@ -4,175 +4,175 @@ import java.sql.Date;
 
 public class Member {
 
-    private Integer MemNo;
-    private String MName;
-    private String MemAcc;
-    private String MemPwd;
-    private Integer MemMob;
-    private Integer MGender;
-    private String MemMail;
-    private String MemAdd;
-    private Double MemBd;
-    private String MemCard;
-    private Integer Provider;
-    private String ClientID;
-    private String DisplayName;
-    private String AccessToken;
-    private String RefreshToken;
-    private Date TknExpireTime;
-    private Date CreationTime;
-    private Date MemberJoinTime;
-    private Integer MemStat;
+    private Integer memNo;
+    private String mName;
+    private String memAcc;
+    private String memPwd;
+    private Integer memMob;
+    private Integer mGender;
+    private String memMail;
+    private String memAdd;
+    private Double memBd;
+    private String memCard;
+    private Integer provider;
+    private String clientID;
+    private String displayName;
+    private String accessToken;
+    private String refreshToken;
+    private Date tknExpireTime;
+    private Date creationTime;
+    private Date memberJoinTime;
+    private Integer memStat;
 
     public Integer getMemNo() {
-        return MemNo;
+        return memNo;
     }
 
     public void setMemNo(Integer memNo) {
-        MemNo = memNo;
+        this.memNo = memNo;
     }
 
     public String getMName() {
-        return MName;
+        return mName;
     }
 
-    public void setMName(String MName) {
-        this.MName = MName;
+    public void setMName(String mName) {
+        this.mName = mName;
     }
 
     public String getMemAcc() {
-        return MemAcc;
+        return memAcc;
     }
 
     public void setMemAcc(String memAcc) {
-        MemAcc = memAcc;
+        this.memAcc = memAcc;
     }
 
     public String getMemPwd() {
-        return MemPwd;
+        return memPwd;
     }
 
     public void setMemPwd(String memPwd) {
-        MemPwd = memPwd;
+        this.memPwd = memPwd;
     }
 
     public Integer getMemMob() {
-        return MemMob;
+        return memMob;
     }
 
     public void setMemMob(Integer memMob) {
-        MemMob = memMob;
+        this.memMob = memMob;
     }
 
     public Integer getMGender() {
-        return MGender;
+        return mGender;
     }
 
-    public void setMGender(Integer MGender) {
-        this.MGender = MGender;
+    public void setMGender(Integer mGender) {
+        this.mGender = mGender;
     }
 
     public String getMemMail() {
-        return MemMail;
+        return memMail;
     }
 
     public void setMemMail(String memMail) {
-        MemMail = memMail;
+        this.memMail = memMail;
     }
 
     public String getMemAdd() {
-        return MemAdd;
+        return memAdd;
     }
 
     public void setMemAdd(String memAdd) {
-        MemAdd = memAdd;
+        this.memAdd = memAdd;
     }
 
     public Double getMemBd() {
-        return MemBd;
+        return memBd;
     }
 
     public void setMemBd(Double memBd) {
-        MemBd = memBd;
+        this.memBd = memBd;
     }
 
     public String getMemCard() {
-        return MemCard;
+        return memCard;
     }
 
     public void setMemCard(String memCard) {
-        MemCard = memCard;
+        this.memCard = memCard;
     }
 
     public Integer getProvider() {
-        return Provider;
+        return provider;
     }
 
     public void setProvider(Integer provider) {
-        Provider = provider;
+        this.provider = provider;
     }
 
     public String getClientID() {
-        return ClientID;
+        return clientID;
     }
 
     public void setClientID(String clientID) {
-        ClientID = clientID;
+        this.clientID = clientID;
     }
 
     public String getDisplayName() {
-        return DisplayName;
+        return displayName;
     }
 
     public void setDisplayName(String displayName) {
-        DisplayName = displayName;
+        this.displayName = displayName;
     }
 
     public String getAccessToken() {
-        return AccessToken;
+        return accessToken;
     }
 
     public void setAccessToken(String accessToken) {
-        AccessToken = accessToken;
+        this.accessToken = accessToken;
     }
 
     public String getRefreshToken() {
-        return RefreshToken;
+        return refreshToken;
     }
 
     public void setRefreshToken(String refreshToken) {
-        RefreshToken = refreshToken;
+        this.refreshToken = refreshToken;
     }
 
     public Date getTknExpireTime() {
-        return TknExpireTime;
+        return tknExpireTime;
     }
 
     public void setTknExpireTime(Date tknExpireTime) {
-        TknExpireTime = tknExpireTime;
+        this.tknExpireTime = tknExpireTime;
     }
 
     public Date getCreationTime() {
-        return CreationTime;
+        return creationTime;
     }
 
     public void setCreationTime(Date creationTime) {
-        CreationTime = creationTime;
+        this.creationTime = creationTime;
     }
 
     public Date getMemberJoinTime() {
-        return MemberJoinTime;
+        return memberJoinTime;
     }
 
     public void setMemberJoinTime(Date memberJoinTime) {
-        MemberJoinTime = memberJoinTime;
+        this.memberJoinTime = memberJoinTime;
     }
 
     public Integer getMemStat() {
-        return MemStat;
+        return memStat;
     }
 
     public void setMemStat(Integer memStat) {
-        MemStat = memStat;
+        this.memStat = memStat;
     }
 }
