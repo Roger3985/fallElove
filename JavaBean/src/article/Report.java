@@ -4,67 +4,67 @@ import java.sql.Date;
 
 public class Report {
 
-    private Integer ReportNo;
-    private Integer ArtReplyNo;
-    private Integer MemNo;
-    private Integer AdmNo;
-    private Date ReportTime;
-    private String ReportReason;
-    private Integer ReportType;
+    private Integer reportNo;
+    private Integer artReplyNo;
+    private Integer memNo;
+    private Integer admNo;
+    private Date reportTime;
+    private String reportReason;
+    private Integer reportType;
 
     public Integer getReportNo() {
-        return ReportNo;
+        return reportNo;
     }
 
     public void setReportNo(Integer reportNo) {
-        ReportNo = reportNo;
+        this.reportNo = reportNo;
     }
 
     public Integer getArtReplyNo() {
-        return ArtReplyNo;
+        return artReplyNo;
     }
 
     public void setArtReplyNo(Integer artReplyNo) {
-        ArtReplyNo = artReplyNo;
+        this.artReplyNo = artReplyNo;
     }
 
     public Integer getMemNo() {
-        return MemNo;
+        return memNo;
     }
 
     public void setMemNo(Integer memNo) {
-        MemNo = memNo;
+        this.memNo = memNo;
     }
 
     public Integer getAdmNo() {
-        return AdmNo;
+        return admNo;
     }
 
     public void setAdmNo(Integer admNo) {
-        AdmNo = admNo;
+        this.admNo = admNo;
     }
 
     public Date getReportTime() {
-        return ReportTime;
+        return reportTime;
     }
 
     public void setReportTime(Date reportTime) {
-        ReportTime = reportTime;
+        this.reportTime = reportTime;
     }
 
     public String getReportReason() {
-        return ReportReason;
+        return reportReason;
     }
 
     public void setReportReason(String reportReason) {
-        ReportReason = reportReason;
+        this.reportReason = reportReason;
     }
 
     public Integer getReportType() {
-        return ReportType;
+        return reportType;
     }
 
     public void setReportType(Integer reportType) {
-        ReportType = reportType;
+        this.reportType = reportType;
     }
 }
