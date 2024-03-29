@@ -2,22 +2,22 @@ package article;
 
 public class ArticleCollection {
 
-    private Integer ArtNo;
-    private Integer MemNo;
+    private Integer artNo;
+    private Integer memNo;
 
     public Integer getArtNo() {
-        return ArtNo;
+        return artNo;
     }
 
     public void setArtNo(Integer artNo) {
-        ArtNo = artNo;
+        artNo = artNo;
     }
 
     public Integer getMemNo() {
-        return MemNo;
+        return memNo;
     }
 
     public void setMemNo(Integer memNo) {
-        MemNo = memNo;
+        memNo = memNo;
     }
 }
