@@ -5,6 +5,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/fallElove_springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/fallElove_webapp/pom.xml" />
       </list>
     </option>
   </component>
