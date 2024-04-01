@@ -1,42 +1,43 @@
 package rental;
 
+import java.sql.Date;
+
 public class RentalOrderDetails {
 
-    private Integer ROrdNo;
-    private Integer RNo;
-    private Double RPrice;
-    private Double RDesPrice;
+    private Integer rOrdNo;
+    private Integer rNo;
+    private Double rPrice;
+    private Double rDesPrice;
 
-    public Integer getROrdNo() {
-        return ROrdNo;
+    public Integer getrOrdNo() {
+        return rOrdNo;
     }
 
-    public void setROrdNo(Integer ROrdNo) {
-        this.ROrdNo = ROrdNo;
+    public void setrOrdNo(Integer rOrdNo) {
+        this.rOrdNo = rOrdNo;
     }
 
-    public Integer getRNo() {
-        return RNo;
+    public Integer getrNo() {
+        return rNo;
     }
 
-    public void setRNo(Integer RNo) {
-        this.RNo = RNo;
+    public void setrNo(Integer rNo) {
+        this.rNo = rNo;
     }
 
-    public Double getRPrice() {
-        return RPrice;
+    public Double getrPrice() {
+        return rPrice;
     }
 
-    public void setRPrice(Double RPrice) {
-        this.RPrice = RPrice;
+    public void setrPrice(Double rPrice) {
+        this.rPrice = rPrice;
     }
 
-    public Double getRDesPrice() {
-        return RDesPrice;
+    public Double getrDesPrice() {
+        return rDesPrice;
     }
 
-    public void setRDesPrice(Double RDesPrice) {
-        this.RDesPrice = RDesPrice;
+    public void setrDesPrice(Double rDesPrice) {
+        this.rDesPrice = rDesPrice;
     }
-
 }
