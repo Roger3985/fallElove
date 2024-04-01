@@ -1,4 +1,4 @@
-package rental_Ni;
+package rental;
 
 import java.sql.Date;
 

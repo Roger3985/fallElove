@@ -1,6 +1,4 @@
-package rental_cyh;
-
-import java.sql.Date;
+package rental;
 
 public class RentalOrderDetails {
 

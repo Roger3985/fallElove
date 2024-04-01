@@ -1,4 +1,4 @@
-package rental_Ni;
+package rental;
 
 public class RentalPic implements java.io.Serializable{
     private Integer rPicNo;
